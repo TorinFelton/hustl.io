@@ -32,10 +32,10 @@ Being able to interact with live stock market data and build a platform around i
 
 
 ## Running the Server
-First, you need to be in the src/ folder. 
+Before running, you need to generate a (free) Finnhub API key and insert it [here](https://github.com/TorinFelton/hustl.io/blob/0ec1e2db9ab92d9372dc3b2f12be25bd46e04372/src/stock_updater.py#L32)
 
 #### With Docker
-- Use the "docker-compose build" command to build the docker images and "docker-compose up" to run the container.
+- Go into src/ and use the "docker-compose build" command to build the docker images and "docker-compose up" to run the container.
 ### Without Docker
 - Install requirements.txt
 - Go into src/ and run "python manage.py runserver"
