@@ -32,7 +32,7 @@ Being able to interact with live stock market data and build a platform around i
 
 
 ## Running the Server
-You must be in src/
+First, you need to be in the src/ folder. 
 
 #### With Docker
 - Use the "docker-compose build" command to build the docker images and "docker-compose up" to run the container.
