@@ -1,13 +1,44 @@
-# hustl.io
-Y15 Group Project for 10120
+# hustl.io (https://hustlio.herokuapp.com)
+![Landing Page](https://i.imgur.com/wxYSafV.png)
 
 
-# FOR TUTOR / MARKER
+Y15 Team Project for 10120
+hustl.io is a competitive paper-trading website built for those who don't want to lose their life savings.
 
-### Running the Server
-- You must be in src/
-- In order to run the server WITH DOCKER, use the "docker-compose build" command to build the docker images and "docker-compose up" to run the container.
-- If docker doesn't work or you want to test without it, just go into src/ and run "python manage.py runserver"
+- Create a portfolio and invest in real stocks, just with fake money
+- Add friends and create a league to start with a custom balance
+- Check the leaderboards to see how well you've done
+
+## Personal Notes
+The commit history / authors can be misleading; we extensively used Live Share in the back end which is inconsistent in showing who has actually worked on the commit, leading to it showing only one person and not two. The majority of backend commits are actually co-authored by myself and [lambeau288](https://github.com/lambeau288).
+
+### What did I contribute?
+I played a role both in front and back end, contributing core parts of the following systems:
+- Front end
+    - Trading section
+    - Your Portfolio page
+    - Landing page
+    - Various fixes to the overall site
+- Back end
+    - Trading history storage & retrieval, including managing & migrating to the live Postgres DB
+    - Leagues system implementation
+    - Deployment and management of live server via Heroku
+
+### What did I learn?
+My knowledge of Django has drastically improved due to this project. I have also gained a lot more experience working with databases, and have finally achieved the goal of panicking after messing up a live production database (I fixed it in the end).
+
+### What did I enjoy?
+Being able to interact with live stock market data and build a platform around it that is both engaging and almost addictive is very satisfying. I remember when the initial trading system was implemented, myself and fellow teammates couldn't put it down for the rest of the day as it was genuinely interesting and fun to test out trading strategies and compete with each other.
+
+
+## Running the Server
+You must be in src/
+
+#### With Docker
+- Use the "docker-compose build" command to build the docker images and "docker-compose up" to run the container.
+### Without Docker
+- Install requirements.txt
+- Go into src/ and run "python manage.py runserver"
 
 ### Layout
 - src/
@@ -25,10 +56,4 @@ Y15 Group Project for 10120
 - The price updates every 5 minutes, but the graphs change only at 00:00.
 
 
-### Useful to Know
-- In Django, model classes (models.py) represent SQL tables
-- "<MODEL_NAME>.objects.all()" is equivalent to "SELECT * FROM <MODEL_NAME>"
-- Django has a debug=True option to spit out errors when they occur. This is set to True on LOCAL but False on LIVE.
-
-
-See LIVE version with LIVE data: hustlio.herokuapp.com/trading
+See LIVE version with LIVE data: hustlio.herokuapp.com/
