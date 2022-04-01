@@ -29,7 +29,7 @@ def update_stocks():
     successfully_updated = []
     failed = []
 
-    finnhub_client = finnhub.Client(api_key="c875a52ad3i9lkntda8g") # TODO: Make environment variable instead of literal
+    finnhub_client = finnhub.Client(api_key="<YOUR API KEY HERE>")
     stocknum = Stock.objects.all().count()
     for stock in Stock.objects.all():
         # get data
