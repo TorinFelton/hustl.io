@@ -1,4 +1,4 @@
-# hustl.io (https://hustlio.herokuapp.com)
+# hustl.io
 ![Landing Page](https://i.imgur.com/wxYSafV.png)
 
 
@@ -52,8 +52,8 @@ Before running, you need to generate a (free) Finnhub API key and insert it [her
 ### Points to note
 - main/urls.py is where ALL our URL requests are redirected to view functions
 - XXX_views.py are files containing view functions to handle requests and respond with a template + data
-- This is the LOCAL version; it is running SQLite3 (no setup required) and has TEST data for prices, etc. This is why the historical data is irregular. If you would like to see data produced by the scheduler properly, go to hustlio.herokuapp.com/trading
+- This is the LOCAL version; it is running SQLite3 (no setup required) and has TEST data for prices, etc. This is why the historical data is irregular. 
 - The price updates every 5 minutes, but the graphs change only at 00:00.
 
 
-See LIVE version with LIVE data: hustlio.herokuapp.com/
+See LIVE version with LIVE data: XXXXXX (Removed temporarily).
