@@ -1,4 +1,4 @@
-# hustl.io
+# hustl.io (https://hustlio.herokuapp.com)
 ![Landing Page](https://i.imgur.com/wxYSafV.png)
 
 
@@ -56,4 +56,4 @@ Before running, you need to generate a (free) Finnhub API key and insert it [her
 - The price updates every 5 minutes, but the graphs change only at 00:00.
 
 
-See LIVE version with LIVE data: XXXXXX (Removed temporarily).
+See LIVE version with LIVE data: https://hustlio.herokuapp.com
