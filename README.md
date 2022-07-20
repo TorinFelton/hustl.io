@@ -2,7 +2,8 @@
 ![Landing Page](https://i.imgur.com/wxYSafV.png)
 
 
-Y15 Team Project for 10120
+Y15 Team Project for COMP10120
+
 hustl.io is a competitive paper-trading website built for those who don't want to lose their life savings.
 
 - Create a portfolio and invest in real stocks, just with fake money
