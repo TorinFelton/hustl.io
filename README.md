@@ -11,7 +11,7 @@ hustl.io is a competitive paper-trading website built for those who don't want t
 - Check the leaderboards to see how well you've done
 
 ## Personal Notes
-The commit history / authors can be misleading; we extensively used Live Share in the back end which is inconsistent in showing who has actually worked on the commit, leading to it showing only one person and not two. The majority of backend commits are actually co-authored by myself and [lambeau288](https://github.com/lambeau288).
+The commit history / authors can be misleading; we extensively used Live Share in the back end which is inconsistent in showing who has actually worked on the commit, leading to it showing only one person and not two - the majority of backend commits are actually co-authored by myself and [lambeau288](https://github.com/lambeau288).
 
 ### What did I contribute?
 I played a role both in front and back end, contributing core parts of the following systems:
